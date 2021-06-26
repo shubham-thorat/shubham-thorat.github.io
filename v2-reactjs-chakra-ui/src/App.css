@@ -1,0 +1,54 @@
+.App {
+  margin: 0 30px;
+  margin-bottom: 20px;
+  max-width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.content {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+
+.fuck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  font-style: italic;
+}
+
+.fa {
+  font-style: italic;
+}
+
+@media (max-width: 535px){
+  .App {
+    transform: scale(0.85);
+  }
+
+  .content {
+    margin : 0 30px;
+  }
+  .name {
+    width: 125%;
+    text-align: center;
+    transform: scale(0.85);
+  }
+
+  .hi{
+    transform: scale(0.85);
+  }
+
+  .designation {
+    transform: scale(0.90);
+  }
+  .fuck {
+    padding-right: 24px;
+  }
+}
